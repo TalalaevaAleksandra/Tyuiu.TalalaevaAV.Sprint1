@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.TalalaevaAV.Sprint1.Task0.V3.Lib\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

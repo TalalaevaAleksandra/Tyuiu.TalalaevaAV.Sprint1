@@ -1,5 +1,4 @@
 ﻿using Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib;
-
 namespace Tyuiu.TalalaevaAV.Sprint1.Task1.V3
 {
     internal class Program
@@ -23,17 +22,18 @@ namespace Tyuiu.TalalaevaAV.Sprint1.Task1.V3
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("* (x-y)/(x+3)+3                                                           *");
             Console.WriteLine("***************************************************************************");
-           
+
 
             double x, y;
             Console.WriteLine("Введите значение X:");
-            x=Convert.ToDouble(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение Y:");
-            y= Convert.ToDouble(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.Calculate(x,y));
+            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
+
         }
     }
 }
