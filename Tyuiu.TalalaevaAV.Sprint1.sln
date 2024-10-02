@@ -15,9 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{B1570E2D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Test", "Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Test\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Test.csproj", "{6A857F5C-469C-43DF-BD60-8AA91F6274B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint1.Task1.V3", "Tyuiu.TalalaevaAV.Sprint1.Task1.V3\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.csproj", "{CBBBFDC0-E0A4-4D03-AD73-7746327D906F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint1.Task1.V3", "Tyuiu.TalalaevaAV.Sprint1.Task1.V3\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.csproj", "{CBBBFDC0-E0A4-4D03-AD73-7746327D906F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib", "Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib.csproj", "{A8D4446C-D7AB-4CD2-A963-C295091755FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib", "Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib\Tyuiu.TalalaevaAV.Sprint1.Task1.V3.Lib.csproj", "{A8D4446C-D7AB-4CD2-A963-C295091755FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{D057B083-A44B-4EF9-A59E-B44FA1C6A005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint1.Task2.V20", "Tyuiu.TalalaevaAV.Sprint1.Task2.V20\Tyuiu.TalalaevaAV.Sprint1.Task2.V20.csproj", "{406B8B36-1769-44AD-B7FD-8556FA1DFAE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint1.Task2.V20.Lib", "Tyuiu.TalalaevaAV.Sprint1.Task2.V20.Lib\Tyuiu.TalalaevaAV.Sprint1.Task2.V20.Lib.csproj", "{FD1B1664-98D7-42B6-BC8A-C3837960DD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TalalaevaAV.Sprint1.Task2.V20.Test", "Tyuiu.TalalaevaAV.Sprint1.Task2.V20.Test\Tyuiu.TalalaevaAV.Sprint1.Task2.V20.Test.csproj", "{CB6DA812-5CD5-4B8F-B5F2-FE608D7B02AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +57,18 @@ Global
 		{A8D4446C-D7AB-4CD2-A963-C295091755FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8D4446C-D7AB-4CD2-A963-C295091755FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8D4446C-D7AB-4CD2-A963-C295091755FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406B8B36-1769-44AD-B7FD-8556FA1DFAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406B8B36-1769-44AD-B7FD-8556FA1DFAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406B8B36-1769-44AD-B7FD-8556FA1DFAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406B8B36-1769-44AD-B7FD-8556FA1DFAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1B1664-98D7-42B6-BC8A-C3837960DD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1B1664-98D7-42B6-BC8A-C3837960DD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1B1664-98D7-42B6-BC8A-C3837960DD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1B1664-98D7-42B6-BC8A-C3837960DD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6DA812-5CD5-4B8F-B5F2-FE608D7B02AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6DA812-5CD5-4B8F-B5F2-FE608D7B02AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6DA812-5CD5-4B8F-B5F2-FE608D7B02AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6DA812-5CD5-4B8F-B5F2-FE608D7B02AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +80,9 @@ Global
 		{6A857F5C-469C-43DF-BD60-8AA91F6274B3} = {B1570E2D-0714-4874-BC6F-B8E047CE3356}
 		{CBBBFDC0-E0A4-4D03-AD73-7746327D906F} = {B1570E2D-0714-4874-BC6F-B8E047CE3356}
 		{A8D4446C-D7AB-4CD2-A963-C295091755FC} = {B1570E2D-0714-4874-BC6F-B8E047CE3356}
+		{406B8B36-1769-44AD-B7FD-8556FA1DFAE6} = {D057B083-A44B-4EF9-A59E-B44FA1C6A005}
+		{FD1B1664-98D7-42B6-BC8A-C3837960DD71} = {D057B083-A44B-4EF9-A59E-B44FA1C6A005}
+		{CB6DA812-5CD5-4B8F-B5F2-FE608D7B02AB} = {D057B083-A44B-4EF9-A59E-B44FA1C6A005}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {881FBACF-9D7E-41E9-93B0-C5E9E249A771}
